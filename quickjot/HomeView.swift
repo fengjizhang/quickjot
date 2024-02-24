@@ -15,19 +15,35 @@ struct HomeView: View {
               .padding()
               .font(.title)
               .foregroundColor(.gray)
-        Button {
-            //if let randomImage = 1 {//fetcher.imageData.sample.randomElement() {
-             //   fetcher.currentPanda = randomImage
-            //}
-            print("HELLO")
-        } label: {
-            VStack {
-                Text("+")
-            }
-            .frame(maxWidth: 50, maxHeight: 30)
+        Spacer()
+            HStack {
+                Spacer()
+                Button {
+                    //if let randomImage = 1 {//fetcher.imageData.sample.randomElement() {
+                     //   fetcher.currentPanda = randomImage
+                    //}
+                    print("HELLO")
+                } label: {
+                    VStack {
+                        Text("+")
+                    }
+                    .frame(maxWidth: 50, maxHeight: 30)
+                    
+                }
+                .buttonStyle(GrowingButton())
         }
-        .buttonStyle(.bordered)
-        .controlSize(.large)
+    }
+}
+
+struct GrowingButton: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding()
+            .background(.blue)
+            .foregroundStyle(.white)
+            .clipShape(Capsule())
+            .scaleEffect(configuration.isPressed ? 1.2 : 1)
+            .animation(.easeOut(duration: 0.2), value: configuration.isPressed)
     }
 }
 
