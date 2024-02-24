@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ListView: View {
+@StateObject private var eventData = EventData()
+ 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            EventList()
+            Text("Select an Event")
+                .foregroundStyle(.secondary)
+        }
+        .environmentObject(eventData)
     }
-}
-
-#Preview {
-    ListView()
 }

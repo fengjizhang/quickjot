@@ -13,6 +13,18 @@
 		F5ED7FCF2B8A4AFD0082C190 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ED7FCE2B8A4AFD0082C190 /* Preview Assets.xcassets */; };
 		F5ED7FD82B8A53B30082C190 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FD72B8A53B30082C190 /* HomeView.swift */; };
 		F5ED7FDA2B8A53CB0082C190 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FD92B8A53CB0082C190 /* ListView.swift */; };
+		F5ED7FDF2B8A573E0082C190 /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FDE2B8A573E0082C190 /* EventData.swift */; };
+		F5ED7FE12B8A57580082C190 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FE02B8A57580082C190 /* Event.swift */; };
+		F5ED7FE32B8A57880082C190 /* EventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FE22B8A57880082C190 /* EventTask.swift */; };
+		F5ED7FE52B8A57B10082C190 /* EventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FE42B8A57B10082C190 /* EventList.swift */; };
+		F5ED7FE72B8A57D30082C190 /* EventEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FE62B8A57D30082C190 /* EventEditor.swift */; };
+		F5ED7FE92B8A57E90082C190 /* EventDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FE82B8A57E90082C190 /* EventDetail.swift */; };
+		F5ED7FEB2B8A5A510082C190 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FEA2B8A5A510082C190 /* TaskRow.swift */; };
+		F5ED7FED2B8A5A6D0082C190 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FEC2B8A5A6D0082C190 /* EventRow.swift */; };
+		F5ED7FEF2B8A5A890082C190 /* SFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FEE2B8A5A890082C190 /* SFSymbolStyling.swift */; };
+		F5ED7FF12B8A5B160082C190 /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FF02B8A5B160082C190 /* SymbolPicker.swift */; };
+		F5ED7FF52B8A5B7D0082C190 /* ColorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FF42B8A5B7D0082C190 /* ColorOptions.swift */; };
+		F5ED7FF72B8A5BA40082C190 /* EventSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED7FF62B8A5BA40082C190 /* EventSymbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +35,18 @@
 		F5ED7FCE2B8A4AFD0082C190 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5ED7FD72B8A53B30082C190 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F5ED7FD92B8A53CB0082C190 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F5ED7FDE2B8A573E0082C190 /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
+		F5ED7FE02B8A57580082C190 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F5ED7FE22B8A57880082C190 /* EventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTask.swift; sourceTree = "<group>"; };
+		F5ED7FE42B8A57B10082C190 /* EventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventList.swift; sourceTree = "<group>"; };
+		F5ED7FE62B8A57D30082C190 /* EventEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditor.swift; sourceTree = "<group>"; };
+		F5ED7FE82B8A57E90082C190 /* EventDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetail.swift; sourceTree = "<group>"; };
+		F5ED7FEA2B8A5A510082C190 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		F5ED7FEC2B8A5A6D0082C190 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
+		F5ED7FEE2B8A5A890082C190 /* SFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStyling.swift; sourceTree = "<group>"; };
+		F5ED7FF02B8A5B160082C190 /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
+		F5ED7FF42B8A5B7D0082C190 /* ColorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptions.swift; sourceTree = "<group>"; };
+		F5ED7FF62B8A5BA40082C190 /* EventSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSymbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +83,18 @@
 				F5ED7FC92B8A4AFC0082C190 /* ContentView.swift */,
 				F5ED7FD72B8A53B30082C190 /* HomeView.swift */,
 				F5ED7FD92B8A53CB0082C190 /* ListView.swift */,
+				F5ED7FE82B8A57E90082C190 /* EventDetail.swift */,
+				F5ED7FE22B8A57880082C190 /* EventTask.swift */,
+				F5ED7FE02B8A57580082C190 /* Event.swift */,
+				F5ED7FEC2B8A5A6D0082C190 /* EventRow.swift */,
+				F5ED7FE62B8A57D30082C190 /* EventEditor.swift */,
+				F5ED7FF62B8A5BA40082C190 /* EventSymbols.swift */,
+				F5ED7FEA2B8A5A510082C190 /* TaskRow.swift */,
+				F5ED7FEE2B8A5A890082C190 /* SFSymbolStyling.swift */,
+				F5ED7FF02B8A5B160082C190 /* SymbolPicker.swift */,
+				F5ED7FE42B8A57B10082C190 /* EventList.swift */,
+				F5ED7FF42B8A5B7D0082C190 /* ColorOptions.swift */,
+				F5ED7FDE2B8A573E0082C190 /* EventData.swift */,
 				F5ED7FCB2B8A4AFD0082C190 /* Assets.xcassets */,
 				F5ED7FCD2B8A4AFD0082C190 /* Preview Content */,
 			);
@@ -143,9 +179,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5ED7FE52B8A57B10082C190 /* EventList.swift in Sources */,
+				F5ED7FF12B8A5B160082C190 /* SymbolPicker.swift in Sources */,
 				F5ED7FDA2B8A53CB0082C190 /* ListView.swift in Sources */,
+				F5ED7FE72B8A57D30082C190 /* EventEditor.swift in Sources */,
+				F5ED7FE92B8A57E90082C190 /* EventDetail.swift in Sources */,
+				F5ED7FEF2B8A5A890082C190 /* SFSymbolStyling.swift in Sources */,
+				F5ED7FE32B8A57880082C190 /* EventTask.swift in Sources */,
 				F5ED7FCA2B8A4AFC0082C190 /* ContentView.swift in Sources */,
+				F5ED7FF72B8A5BA40082C190 /* EventSymbols.swift in Sources */,
+				F5ED7FDF2B8A573E0082C190 /* EventData.swift in Sources */,
+				F5ED7FED2B8A5A6D0082C190 /* EventRow.swift in Sources */,
 				F5ED7FD82B8A53B30082C190 /* HomeView.swift in Sources */,
+				F5ED7FF52B8A5B7D0082C190 /* ColorOptions.swift in Sources */,
+				F5ED7FEB2B8A5A510082C190 /* TaskRow.swift in Sources */,
+				F5ED7FE12B8A57580082C190 /* Event.swift in Sources */,
 				F5ED7FC82B8A4AFC0082C190 /* quickjotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
