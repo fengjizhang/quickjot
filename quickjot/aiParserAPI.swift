@@ -31,7 +31,7 @@ class aiParserAPI: ObservableObject {
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         // Replace "Your-OpenAI-API-Key" with your actual API Key
-        request.addValue("Bearer Your-OpenAI-API-Key", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer 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", forHTTPHeaderField: "Authorization")
         
         let payload: [String: Any] = [
             "prompt": textToSend,
