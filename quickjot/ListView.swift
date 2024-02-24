@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
 @StateObject private var eventData = EventData()
- 
+    
     var body: some View {
         NavigationView {
             EventList()
