@@ -11,13 +11,20 @@ struct HomeView: View {
                 .padding()
                 .font(.title)
                 .foregroundColor(.gray)
-            Spacer()
+            Spacer() 
             HStack {
                 Button(action: {
                     showAlert = true
                     Task {
                         do {
-                            try await fetcher.sendData(textToSend: enteredText)
+                            do {
+                                let result = try await fetcher.sendData(textToSend: enteredText)
+                                // Now you can use `result` however you need
+                            } catch {
+                                // Handle any errors
+                                print("An error occurred: \(error)")
+                            }
+
                             
                         } catch {
                             print(error)
